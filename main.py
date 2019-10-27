@@ -254,7 +254,7 @@ def bot_with_cyclic_update_process(update_event, answer_scores):
     upd_thread.start()
 
     loop = asyncio.get_event_loop()
-    loop.create_task(bot.start('NjM4MDIxOTQ2NzM0MjgwNzA1.XbW8vQ.LgDzrq4Nx6OTI2QArUKG4c8bVxw'))
+    loop.create_task(bot.start('https://discordapp.com/api/oauth2/authorize?client_id=633207629333921802&permissions=8&scope=bot'))
     loop.run_forever()
 
 
